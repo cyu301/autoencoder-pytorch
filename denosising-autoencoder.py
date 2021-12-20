@@ -147,7 +147,7 @@ if __name__ == '__main__':
         train(epoch)
         test(epoch)
     end = time.time()
-    print(f'Total train and test time: {end-start}:.4')
+    print(f'Total train and test time: {end-start:.4}')
     
     for i in range(3):
         Visualize()

@@ -10,7 +10,7 @@ from torch.nn import functional as F
 from torchvision import transforms
 
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-print(f'Using device： {device}')
+print(f'Using device: {device}')
 
 mnist_root = '../data/mnist'
 batch_size = 64
